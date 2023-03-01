@@ -1,5 +1,6 @@
 Feature:
 
+  @wip
   Scenario: E2E spartan test
     When the user create a spartan
     Then verify that status code 201
@@ -11,6 +12,7 @@ Feature:
     Then verify that the name is updated
     When the user update the name gender phone
     Then verify that the user is updated
+
 
 
 
